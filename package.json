@@ -1,0 +1,34 @@
+{
+  "name": "yolog",
+  "version": "1.0.0",
+  "description": "yoLog is a comfort utility for troubleshooting Node.js apps in dev. It formats console logs to make them stand out from the noise, and easy to find.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanfive/yolog.git"
+  },
+  "keywords": [
+    "console.log",
+    "logging",
+    "logger",
+    "colours",
+    "colors",
+    "indent",
+    "indenting",
+    "prettier",
+    "JSON",
+    "readability"
+  ],
+  "author": "Johan Friedrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanfive/yolog/issues"
+  },
+  "homepage": "https://github.com/johanfive/yolog#readme",
+  "files": [
+    "index.js"
+  ]
+}
