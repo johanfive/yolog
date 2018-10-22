@@ -14,9 +14,15 @@ It formats `console logs` to make them stand out from the noise, and `easy to fi
 See examples below.
 
 ## Install instructions
+Install as an Optional Dependency
 ```
-npm install yolog
+npm i -O yolog
 ```
+Or as a Dev Dependency
+```
+npm i -D yolog
+```
+Then require it in your projects
 ```js
 const yoLog = require('yolog');
 ```
@@ -73,3 +79,11 @@ const anObj = {
 My name is Johan, pronounced "Yoan".
 
 \+ `Y`ou `O`nly `Log` one... var at a time!
+
+### Misc
+The logs have been tested on both black and white background in:
++ Mac OS' native terminal
++ [VSCode](https://code.visualstudio.com/)'s terminal
++ [iTerm2](https://www.iterm2.com/)
+
+Var names are shown in Magenta because it is one of the most consistant color accross terminals.
