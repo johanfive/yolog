@@ -5,7 +5,7 @@ yoLog is a `comfort` utility for `troubleshooting` Node.js apps in dev.
 
 It formats `console logs` to make them stand out from the noise, and `easy to find`.
 
-+ Detects the variable's name, and prints it in color before rendering its content
++ Detects the variable's name, and prints it in colour before rendering its content
 + Renders the variable content in prettier and indented JSON format
 + Limits the rendering of nested properties to 2 levels deep
 + Allows full rendering of deeply nested objects when needed
@@ -76,9 +76,8 @@ const anObj = {
 ![example of logs rendered with yoLog - full json](./img/fulljson.png)
 
 ### Why the name
-My name is Johan, pronounced "Yoan".
-
-\+ `Y`ou `O`nly `Log` one... var at a time!
++ My name is Johan, pronounced "Yoan".
++ `Y`ou `O`nly `Log` one... var at a time!
 
 ### Misc
 The logs have been tested on both black and white background in:
@@ -86,4 +85,4 @@ The logs have been tested on both black and white background in:
 + [VSCode](https://code.visualstudio.com/)'s terminal
 + [iTerm2](https://www.iterm2.com/)
 
-Var names are shown in Magenta because it is one of the most consistant color accross terminals.
+Var names are shown in Magenta because it is one of the most consistant colours accross terminals.
