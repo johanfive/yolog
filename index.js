@@ -15,7 +15,7 @@ const yolog = (logMe, showAll) => {
     showAll ? jString : raw
   );
 
-  if (typeof showAll === 'undefined') { console.log(' ') };
+  if (typeof showAll === 'undefined') { console.log(' '); }
   console.timeEnd('Logger');
 };
 
