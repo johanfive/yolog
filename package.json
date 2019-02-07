@@ -20,7 +20,10 @@
     "indenting",
     "prettier",
     "JSON",
-    "readability"
+    "readability",
+    "node",
+    "node.js",
+    "express"
   ],
   "author": "Johan Friedrich",
   "license": "ISC",
