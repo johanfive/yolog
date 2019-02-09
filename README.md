@@ -47,7 +47,32 @@ yoLog({myVar}, true);
 ```
 
 ## Examples
-See [github page](https://github.com/johanfive/yolog) for screenshots.
+For variables named and defined as:
+```js
+const aString = 'just a string';
+const anArray = [aString, 123, {aString}];
+const anObj = {
+  prop1: aString,
+  prop2: anArray,
+  prop3: {
+    aString,
+    anArray,
+    aDeeply: {
+      nested: {
+        aString,
+        anArray
+      }
+    }
+  },
+  prop4: [1, 2, 3, 'Starts', 'indenting', 'at certain', 'number of', 'elements'],
+  prop5: 'lol'
+};
+```
+### Concise and colourful logs
+![example of logs rendered with yoLog - concise and colourful](./img/yolog.png)
+
+### Deeply nested view (raw JSON)
+![example of logs rendered with yoLog - full json](./img/fulljson.png)
 
 ### Why the name
 + My name is Johan, pronounced "Yoan".

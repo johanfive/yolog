@@ -1,6 +1,6 @@
 {
   "name": "yolog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "yoLog is a comfort utility for troubleshooting Node.js apps in dev. It formats console logs to make them stand out from the noise, and easy to find.",
   "main": "index.js",
   "scripts": {
